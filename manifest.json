@@ -11,11 +11,11 @@
         "activeTab"
     ],
     "icons": {
-        "128": "logo2.png"
+        "128": "clock.png"
     },
     "action": {
         "default_popup": "popup.html",
-        "default_title": "Extension",
-        "default_icon": "logo2.png"
+        "default_title": "Now the current time",
+        "default_icon": "clock.png"
     }
 }
