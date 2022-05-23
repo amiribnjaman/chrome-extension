@@ -15,7 +15,7 @@
     },
     "action": {
         "default_popup": "popup.html",
-        "default_title": "Now the current time",
+        "default_title": "Know the current time",
         "default_icon": "clock.png"
     }
 }

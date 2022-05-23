@@ -1,13 +1,18 @@
-button {
+div {
     height: 30px;
+    text-align: center;
+    background: #eee;
     width: 120px;
     outline: none;
     margin: 10px;
     border: none;
     border-radius: 2px;
-  }
-  
-  button.current {
+    padding: 7px 11px 0 11px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+div.current {
     box-shadow: 0 0 0 2px white,
-                0 0 0 4px black;
-  }
+        0 0 0 4px black;
+}
