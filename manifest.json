@@ -1,0 +1,21 @@
+{
+    "name": "My Extension",
+    "description": "This is my first chrome extension!",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "icons": {
+        "128": "logo2.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Extension",
+        "default_icon": "logo2.png"
+    }
+}
