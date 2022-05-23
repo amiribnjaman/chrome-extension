@@ -1,4 +1,15 @@
-div {
+*, body {
+    margin: 0;
+    padding: 0;;
+}
+
+.container {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container div {
     height: 30px;
     text-align: center;
     background: #eee;
@@ -12,7 +23,7 @@ div {
     font-weight: 500;
 }
 
-div.current {
+.container div.current {
     box-shadow: 0 0 0 2px white,
         0 0 0 4px black;
 }
